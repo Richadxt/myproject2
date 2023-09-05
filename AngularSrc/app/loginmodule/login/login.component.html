@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2>Employee Login:</h2>
+      <form #loginForm="ngForm">
+        <div class="form-group">
+          <label for="email" >Email address:</label>
+          <input type="email" class="form-control" id="email" name="email" [(ngModel)]="loginRequest.username" placeholder="Enter Email Id" required>
+        </div>
+        <div class="form-group">
+          <label for="pwd" >Password:</label>
+          <input type="password" class="form-control" id="pwd" name="password" [(ngModel)]="loginRequest.password" placeholder="Enter your password" required>
+        </div>
+        <!-- <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="remember" name="rememberMe" [(ngModel)]="loginRequest.rememberMe">
+          <label class="form-check-label" for="remember">Remember me</label>
+        </div> -->
+       <div> <span class="text-danger">{{error}}</span></div>
+        <button type="submit" class="btn btn-default" (click)="login()">Login</button>
+        
+      </form>
+    </div>
+  </div>
+</div>

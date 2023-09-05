@@ -1,0 +1,22 @@
+
+  /* Change the background color of the form */
+   .custom-form {
+    background-color: #0f0d0d; /* Change this to your desired background color */
+   padding: 20px; /* Add padding for spacing */
+  } 
+
+  /* Change the text color of labels */
+  label {
+    color: #333; /* Change this to your desired text color */
+  }
+
+  /* Change the border color of form inputs */
+  .form-control {
+    border-color: #555; /* Change this to your desired border color */
+  }
+
+  /* Change the background color of the submit button */
+  .btn-default {
+    background-color: #007bff; /* Change this to your desired button color */
+    color: #fff; /* Change the text color */
+  }
